@@ -24,6 +24,8 @@
 }
 .icon-logo {
     display: inline-block;
+    position:relative;
+    left: 20px
 }
 .icon-logo:before {
     background: url('img/smiley.jpg');
@@ -31,12 +33,18 @@
     height: 250px;
     width: 250px;
     content: '';
+   
+    top:80px;
 }
 [role=navigation] > span a:not([href^=mailto]) {
     background: grey;
 }
-div div a + p + p div div p:nth-child(3) {
-    background: #061539;
+.wrapper1 div div a + p + p{
+
+	background: #061539;
+}
+.wrapper2 div div p:nth-child(3){
+	background: grey;
 }
 .container {
     background: grey;
