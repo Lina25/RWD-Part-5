@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    margin: 30px;
+}
+.btn {
+    background: linear-gradient(#DDDDDD, #B7B7B7);
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bold;
+    text-shadow:0 1px 0 #DEDEDE;
+    color: #585455;
+    font-size: 26px;
+    border-radius: 10px;
+    border: 1px solid #6D6D6D;
+    box-shadow: 0 0 0 4px #CACACA, 0 0 0 6px #F8F8F8, 0 0 0 8px #737373;
+    padding: 15px 15px 15px 15px;
+}
+.btn:before,
+.btn:after {
+    content: "★";
+}
+.icon-logo {
+    display: inline-block;
+}
+.icon-logo:before {
+    background: url('img/smiley.jpg');
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    content: '';
+}
+[role=navigation] > span a:not([href^=mailto]) {
+    background: grey;
+}
+div div a + p + p div div p:nth-child(3) {
+    background: #061539;
+}
+.container {
+    background: grey;
+    width: 240px;
+    height: 240px;
+}
+.circle {
+    margin: 5px;
+    border-radius: 240px;
+    border-top: 30px solid #0E1A18;
+    border-bottom: 30px solid #081A17;
+    border-left: 30px solid #325C56;
+    border-right: 30px solid #172A28;
+    animation: my_animation 20s infinite;
+    animation-timing-function: ease;
+}
+.center {
+    width: 30px;
+    height: 30px;
+}
+@keyframes my_animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
