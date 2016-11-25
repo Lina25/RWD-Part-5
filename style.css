@@ -10,7 +10,7 @@
     text-transform: uppercase;
     font-family: Arial;
     font-weight: bold;
-    text-shadow:0 1px 0 #DEDEDE;
+    text-shadow: 0 1px 0 #DEDEDE;
     color: #585455;
     font-size: 26px;
     border-radius: 10px;
@@ -24,7 +24,7 @@
 }
 .icon-logo {
     display: inline-block;
-    position:relative;
+    position: relative;
     left: 20px
 }
 .icon-logo:before {
@@ -33,18 +33,16 @@
     height: 250px;
     width: 250px;
     content: '';
-   
-    top:80px;
+    top: 80px;
 }
 [role=navigation] > span a:not([href^=mailto]) {
     background: grey;
 }
-.wrapper1 div div a + p + p{
-
-	background: #061539;
+.wrapper1 div div a + p + p {
+    background: #061539;
 }
-.wrapper2 div div p:nth-child(3){
-	background: grey;
+.wrapper2 div div p:nth-child(3) {
+    background: grey;
 }
 .container {
     background: grey;
