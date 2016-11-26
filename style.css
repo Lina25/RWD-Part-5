@@ -24,8 +24,7 @@
 }
 .icon-logo {
     display: inline-block;
-    position: relative;
-    left: 20px
+
 }
 .icon-logo:before {
     background: url('img/smiley.jpg');
@@ -33,7 +32,7 @@
     height: 250px;
     width: 250px;
     content: '';
-    top: 80px;
+/*    top:20px;*/
 }
 [role=navigation] > span a:not([href^=mailto]) {
     background: grey;
